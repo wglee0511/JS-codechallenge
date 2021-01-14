@@ -7,3 +7,7 @@ CodeChallege - 1
 [✅]  Add event listner "contextmenu"
 [✅]  Intergrated event listner using Object.
 [✅]  Changed colors using Array.
+
+CodeChallege - 2
+[✅]  Change backgroundcolor using if condition.
+[✅]  window.innerWidth
