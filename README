@@ -11,3 +11,11 @@ CodeChallege - 1
 CodeChallege - 2
 [✅]  Change backgroundcolor using if condition.
 [✅]  window.innerWidth
+
+CodeChallege - 3
+[✅]  Real time D-day? from Chistmas to today.
+[✅]  new Date().
+[✅]  getTime() -> only use this method.
+[✅]  setInterval().
+[✅]  appendChild().
+[✅]  createElement().
