@@ -14,8 +14,14 @@ CodeChallege - 2
 
 CodeChallege - 3
 [✅]  Real time D-day? from Chistmas to today.
-[✅]  new Date().
+[✅]  new Date()
 [✅]  getTime() -> only use this method.
-[✅]  setInterval().
-[✅]  appendChild().
-[✅]  createElement().
+[✅]  setInterval()
+[✅]  appendChild()
+[✅]  createElement()
+
+CodeChallege - 4
+[✅]  Setting select option value to localStarge.
+[✅]  localStarge.setItem("key", "value")
+[✅]  localStarge.getItem("key")
+[✅]  JSON.stringify()
