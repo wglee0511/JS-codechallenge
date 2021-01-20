@@ -25,3 +25,13 @@ CodeChallege - 4
 [✅]  localStarge.setItem("key", "value")
 [✅]  localStarge.getItem("key")
 [✅]  JSON.stringify()
+
+CodeChallege - 5
+[✅]  Make ToDoList using localStarge.
+[✅]  filter()
+[✅]  forEach()
+[✅]  removeChild()
+[✅]  event.target
+[✅]  parseInt()
+[✅]  parentNode
+[✅]  JSON.parse()
