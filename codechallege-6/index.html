@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>
+      Random Number Game
+      <h2 class="banner"></h2>
+    </h1>
+    <input
+      class="range-input"
+      type="range"
+      min="0"
+      max="150"
+      value="10"
+      step="5"
+      width="50"
+      style="width: 250px;"
+    />
+
+    <form class="number-submit-form">
+      <label htmlfor="number-submit-input">Guess the number : </label>
+      <input
+        class="number-submit-input"
+        type="number"
+        placeholder="Enter the number"
+      />
+      <input class="number-submit-input-button" type="submit" value="Play!" />
+    </form>
+
+    <div class="game-board">
+      <p class="wrong-select"></p>
+      <p class="my-choice"></p>
+      <p class="machine-choice"></p>
+      <!-- <h3>You lost! or You won!<h3> -->
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
