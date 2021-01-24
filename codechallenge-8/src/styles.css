@@ -5,7 +5,7 @@
 @import "./assets/todo.css";
 
 body {
-  font-family: "Lobster", cursive;
+  font-family: "Lobster", "Nanum Pen Script", cursive;
   background-color: #b0aeaf;
   padding: 5px;
 }
