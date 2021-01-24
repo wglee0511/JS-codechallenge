@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./assets/clock.css";
 @import "./assets/name.css";
+@import "./assets/background.css";
+@import "./assets/todo.css";
 
 body {
   font-family: "Lobster", cursive;
@@ -43,7 +45,7 @@ body {
   grid-row: 4 / 5;
   grid-column: 1 / 2;
 }
-.reset-button:hover {
+.reset-button:active {
   background-color: #b0aeaf;
   color: #151a29;
 }

@@ -32,12 +32,12 @@ const getTimeNow = () => {
 
   monthDayYear.innerText = `${month}. ${day}. ${year}`;
   week.innerText = `${weekDay}`;
-  if (hours > 12) {
+  if (hours >= 12) {
     timer.innerText = `${hours > 12 ? `0${hours - 12}` : `${hours}`} : ${
       minutes < 10 ? `0${minutes}` : `${minutes}`
     } : ${seconds < 10 ? `0${seconds}` : `${seconds}`}_PM`;
   } else if (hours < 12) {
-    timer.innerText = `AM  ${hours > 12 ? `0${hours - 12}` : `${hours}`} : ${
+    timer.innerText = `${hours > 12 ? `0${hours - 12}` : `${hours}`} : ${
       minutes < 10 ? `0${minutes}` : `${minutes}`
     } : ${seconds < 10 ? `0${seconds}` : `${seconds}`}_AM`;
   }

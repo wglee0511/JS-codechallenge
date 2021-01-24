@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./src/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
@@ -27,17 +28,29 @@
         </div>
       </div>
 
-      <div class="toDo-Input">1</div>
+      <div class="toDo-Input">What is your plan?
+        <form class="todo-form js-todo-form">
+          <input class="todo-div-input name-input js-todo-input" type="text" placeholder="To Do.." />
+        </form>
+      </div>
 
       <button class="reset-button js-reset-button">reset</button>
 
       <div class="weather js-weather">1</div>
 
-      <div class="picture">1</div>
+      <div class="picture">
+        <div class="picture-img js-background"></div>
+      </div>
 
-      <div class="planning">1</div>
+      <div class="planning js-planning">
+        <h6 class="todo-head">Planning</h6>
+        <ul class="todolist js-todolist-planning"><ul>
+      </div>
 
-      <div class="finished">1</div>
+      <div class="finished js-finished" >
+          <h6 class="todo-head">Finished</h6>
+        <ul class="todolist js-todolist-finished"><ul>
+      </div>
     </div>
 
     <script src="src/javascript/index.js"></script>
